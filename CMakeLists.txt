@@ -13,6 +13,8 @@ option(BUILD_WITH_TBB "Build with Intel TBB" ON)
 
 add_library( xmeshcore STATIC )
 
+set_property( TARGET krakatoa PROPERTY CXX_STANDARD 17 )
+
 target_include_directories( xmeshcore PUBLIC
 	$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
 	$<INSTALL_INTERFACE:include>
