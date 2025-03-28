@@ -16,7 +16,7 @@ COMMON_PACKAGER_ARGS: dict[str, Any] = {
 }
 
 WINDOWS_PACKAGER_ARGS: dict[str, Any] = {
-    'visual_versions': ['15', '16'],
+    'visual_versions': ['15', '16', '17'],
     'visual_runtimes': ['MD']
 }
 
